@@ -4,3 +4,4 @@ GIT_Jenkins_build_test
 not_merged
 change to SSH
 change polling setting
+dojo
