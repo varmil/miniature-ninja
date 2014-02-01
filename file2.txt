@@ -5,3 +5,4 @@ not_merged
 change to SSH
 change polling setting
 cancel polling setting
+web-hook setting changed
