@@ -8,3 +8,4 @@ cancel polling setting
 web-hook setting changed(without polling setting)
 post-update setting done(post-commit aaaaa)
 polling and https setting
+Github Plugin used
