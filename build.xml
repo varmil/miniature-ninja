@@ -11,7 +11,7 @@
     <phpcpd minTokens="10">
       <fileset dir=".">
           <include name="**/**/*.php"/>
-          <exclude name="./phpdoc/*.php"/>
+          <exclude name="./phpdoc/**/*.php"/>
       </fileset>
       <formatter type="pmd"
                  outfile="${outputDir}/cpd.xml"/>
