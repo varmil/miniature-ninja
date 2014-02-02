@@ -11,3 +11,4 @@ polling and https setting
 with only Git Plugin, automatically tested
 ssh alias setting
 available wget command
+post-commit fix
