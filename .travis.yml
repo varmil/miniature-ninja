@@ -2,5 +2,15 @@ language: php
 php:
   - 5.3
 
-script: 
-  - phpunit --coverage-text -c phpunit.xml
+before_script:
+  - curl -s http://getcomposer.org/installer | php
+  - php composer.phar install --dev --no-interaction
+
+script:
+  - mkdir -p build/logs
+  #- phpunit --coverage-text -c phpunit.xml
+  #- php vendor/bin/phpunit -c phpunit.xml
+  - phpunit --coverage-clover build/logs/clover.xml -c phpunit.xml
+  
+after_script:
+  - php vendor/bin/coveralls -v
