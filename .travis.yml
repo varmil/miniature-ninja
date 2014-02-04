@@ -9,4 +9,3 @@ script:
 
 notifications:
   on_success: always # default: change
-  on_failure: always
