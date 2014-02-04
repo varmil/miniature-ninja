@@ -4,6 +4,7 @@ build@delay*
 phpdoc/
 test_result/
 
+
 # (生成された) html ファイルは無視する
 #*.html
 # foo.html は例外とし、手でメンテナンスします
