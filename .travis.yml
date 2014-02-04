@@ -2,7 +2,7 @@ language: php
 php:
   - "5.3"
 before_install:
-  - sudo composer self-update
+  - composer self-update
 before_script:
 script:
   - phpunit
