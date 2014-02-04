@@ -12,4 +12,4 @@ TravisCI:
 [![Build Status](https://travis-ci.org/varmil/miniature-ninja.png)](https://travis-ci.org/varmil/miniature-ninja)
 
 COVERALLS:
-[![Coverage Status](https://coveralls.io/repos/varmil/miniature-ninja/badge.png)](https://coveralls.io/r/varmil/miniature-ninja)
+[![Coverage Status](https://coveralls.io/repos/varmil/miniature-ninja/badge.png?branch=master)](https://coveralls.io/r/varmil/miniature-ninja?branch=master)
