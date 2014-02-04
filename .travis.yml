@@ -1,11 +1,13 @@
 language: php
 php:
-  - "5.3"
+  - 5.3
 before_install:
-  - composer self-update
+
 before_script:
+ - curl -s http://getcomposer.org/installer | php
+ - php composer.phar install --dev --prefer-source
+
 script:
-  - phpunit
+  - phpunit --coverage-text
 
 notifications:
-  on_success: always # default: change
