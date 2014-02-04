@@ -21,6 +21,7 @@ class FooTest extends PHPUnit_Framework_TestCase
 	public function thisIsCopyAndPastePrograming() {
 		$this->assertSame("Foo", $this->foo->thisIsCopyAndPastePrograming(-1));
 		$this->assertSame("1", $this->foo->thisIsCopyAndPastePrograming(0));
+		$this->assertSame("2", $this->foo->thisIsCopyAndPastePrograming(1));
 		$this->assertSame("3", $this->foo->thisIsCopyAndPastePrograming(2));
 		$this->assertSame("7", $this->foo->thisIsCopyAndPastePrograming(6));
 		$this->assertSame("Foo", $this->foo->thisIsCopyAndPastePrograming(7));

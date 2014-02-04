@@ -5,6 +5,8 @@
  *
  */
 class Foo {
+	protected $var_for_extend = 'hogehoge';
+
 	function thisIsCopyAndPastePrograming($val) {
 		$val = $val + 1;
 		
