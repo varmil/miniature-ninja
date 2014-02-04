@@ -7,4 +7,4 @@ TravisCIとGithubの連携
 （リモートリポジトリにPushするとPHPUnit等を用いた自動テスト実行）  
 
 state:  
-[![Build Status](https://travis-ci.org/varmil/miniature-ninja.png?branch=develop_20140201)](https://travis-ci.org/varmil/miniature-ninja)
+[![Build Status](https://travis-ci.org/varmil/miniature-ninja.png)](https://travis-ci.org/varmil/miniature-ninja)
