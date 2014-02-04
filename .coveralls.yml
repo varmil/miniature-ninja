@@ -1,4 +1,5 @@
-# for php-coveralls
-src_dir: src
+# for php-coveralls 
+# src_dir: Used to specify where the root level of your source files directory is. Example-> src_dir: .
+src_dir: phpfiles
 coverage_clover: build/logs/clover.xml
 json_path: build/logs/coveralls-upload.json

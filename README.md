@@ -5,6 +5,11 @@ JenkinsとGithubの連携
 （ローカルリポジトリにCommitするとPHPUnit等を用いた自動テスト実行）  
 TravisCIとGithubの連携  
 （リモートリポジトリにPushするとPHPUnit等を用いた自動テスト実行）  
+TravisCIとPHP-Coverallsの連携  
+（コードカバレッジを可視化する）  
 
-state:  
+TravisCI:
 [![Build Status](https://travis-ci.org/varmil/miniature-ninja.png)](https://travis-ci.org/varmil/miniature-ninja)
+
+COVERALLS:
+[![Coverage Status](https://coveralls.io/repos/varmil/miniature-ninja/badge.png)](https://coveralls.io/r/varmil/miniature-ninja)
