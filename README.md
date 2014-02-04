@@ -11,4 +11,4 @@ TravisCIとPHP-Coverallsの連携
 TravisCI:
 [![Build Status](https://travis-ci.org/varmil/miniature-ninja.png)](https://travis-ci.org/varmil/miniature-ninja)
 COVERALLS:
-[![Coverage Status](https://coveralls.io/repos/varmil/miniature-ninja/badge.png?branch=develop_20140204)](https://coveralls.io/r/varmil/miniature-ninja?branch=develop_20140204)
+[![Coverage Status](https://coveralls.io/repos/varmil/miniature-ninja/badge.png)](https://coveralls.io/r/varmil/miniature-ninja)
