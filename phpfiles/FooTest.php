@@ -14,7 +14,7 @@ class FooTest extends PHPUnit_Framework_TestCase
 	
 	/** @test */
 	public function plusSimple2() {
-		$this->assertSame(2, $this->foo->plus(1, 2));
+		$this->assertSame(3, $this->foo->plus(1, 2));
 	}
 	
 	/** @test */
