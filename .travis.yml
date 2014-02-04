@@ -3,4 +3,4 @@ php:
   - 5.3
 
 script: 
-  - phpunit phpfiles/
+  - phpunit --coverage-text -c phpunit.xml
